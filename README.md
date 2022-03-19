@@ -8,13 +8,13 @@
   - Repository 생성
 
 - PC
-git init
-git config user.name "사용자 이름"
-git config user.email "이메일 주소"
-git remote add origin [주소]
-git add .
-git commit -m "최초 생성"
-git push -u origin main
+  - git init
+  - git config user.name "사용자 이름"
+  - git config user.email "이메일 주소"
+  - git remote add origin [주소]
+  - git add .
+  - git commit -m "최초 생성"
+  - git push -u origin main
 
 - 1차 수정 
   - git clone [주소] [PC 폴더]
