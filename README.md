@@ -171,15 +171,15 @@ mkdocs build
 
 
 ### 배포
-git init
-git config user.name "사용자 이름"
-git config user.email "이메일 주소"
-git remote add origin [주소]
-mkdocs gh-deploy
-git add .
-git commit -m "최초 생성"
-git branch -M main
-git push -u origin main
+- git init
+- git config user.name "사용자 이름"
+- git config user.email "이메일 주소"
+- git remote add origin [주소]
+- mkdocs gh-deploy
+- git add .
+- git commit -m "최초 생성"
+- git branch -M main
+- git push -u origin main
 
 [사용자ID].github.io/[저장소 이름]
 
